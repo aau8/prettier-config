@@ -1,8 +1,7 @@
 {
-  "name": "react-leadermap-prettier-config",
+  "name": "@react-leadermap/prettier-config",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "index.json",
   "keywords": [],
   "author": "Artyom Ugryumov",
   "license": "ISC"
