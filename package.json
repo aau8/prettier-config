@@ -1,8 +1,20 @@
 {
-  "name": "@lights-on/prettier-config",
+  "name": "@lights-on-projects/prettier-config",
+  "description": "Конфигурационный файл prettier для проектов Lights On",
   "version": "1.0.0",
   "main": "index.json",
   "keywords": [],
   "author": "Artyom Ugryumov",
-  "license": "ISC"
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lights-on-projects/prettier-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lights-on-projects/prettier-config/issues"
+  },
+  "homepage": "https://github.com/lights-on-projects/prettier-config#readme"
 }
