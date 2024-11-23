@@ -1,15 +1,15 @@
-# Конфигурация Prettier для проектов Lights On
+# Конфигурация Prettier для личных проектов
 
-1. Установить пакет из GitHub
+1. Установить пакет
 
 ```bash
-yarn add -D @lights-on-projects/prettier-config
+yarn add -D @aau8/prettier-config
 ```
 
 2. Добавить в package.json настройку
 
 ```json
 {
-  "prettier": "@lights-on-projects/prettier-config"
+  "prettier": "@aau8/prettier-config"
 }
 ```
