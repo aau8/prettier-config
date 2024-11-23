@@ -2,7 +2,7 @@
   "name": "@aau8/prettier-config",
   "description": "Конфигурационный файл prettier для личных проектов",
   "version": "0.1.1",
-  "main": ".prettierrc",
+  "main": "./.prettierrc.json",
   "keywords": [
     "prettier",
     "config",
@@ -12,10 +12,14 @@
   "scripts": {
     "format": "prettier ./test.js --write"
   },
+  "files": [
+    ".prettierrc.json"
+  ],
   "author": "Artyom Ugryumov (https://github.com/aau8)",
   "homepage": "https://github.com/aau8/prettier-config",
   "license": "ISC",
   "devDependencies": {
     "prettier": "^3.3.3"
-  }
+  },
+  "prettier": "./prettier-config.json"
 }
