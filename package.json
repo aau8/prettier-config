@@ -1,7 +1,7 @@
 {
   "name": "@aau8/prettier-config",
   "description": "Конфигурационный файл prettier для личных проектов",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": ".prettierrc",
   "keywords": [
     "prettier",
