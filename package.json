@@ -1,15 +1,21 @@
 {
-    "name": "@aau8/prettier-config",
-    "description": "Конфигурационный файл prettier для личных проектов",
-    "version": "0.1.0",
-    "main": "prettier-config.json",
-    "keywords": [
-        "prettier",
-        "config",
-        "prettier config",
-        "format"
-    ],
-    "author": "Artyom Ugryumov (https://github.com/aau8)",
-    "homepage": "https://gitlab.lights-on.dev/lights-on-packages/prettier-config",
-    "license": "ISC"
+  "name": "@aau8/prettier-config",
+  "description": "Конфигурационный файл prettier для личных проектов",
+  "version": "0.1.0",
+  "main": ".prettierrc",
+  "keywords": [
+    "prettier",
+    "config",
+    "prettier config",
+    "format"
+  ],
+  "scripts": {
+    "format": "prettier ./test.js --write"
+  },
+  "author": "Artyom Ugryumov (https://github.com/aau8)",
+  "homepage": "https://gitlab.lights-on.dev/lights-on-packages/prettier-config",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
 }
